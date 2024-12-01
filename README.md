@@ -8,3 +8,4 @@
 6- git log
 7- git commit --amend -m "Mensaje cambiado"
 8- git checkout -b rama-heroes
+9- git checkout main
