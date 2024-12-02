@@ -49,4 +49,27 @@
 11. $ git merge rama--heroes
 	fusionar cambios de la rama heroes con la rama
 	main
-	
+
+12. $ git branch -d rama-heroes
+	Borrar rama que ya no vamos a seguir usando
+
+13. 
+	Hacer el despliegue a un repositorio externo
+
+	* Nos vamos a github
+		- New repository
+
+	git remote add origin 	https://github.com/rotsenn/comandos-git.git
+	git branch -M main
+	git push -u origin main
+
+14. $ git push
+	Desplegar a github
+
+15. $ git commit -am
+	comando para saltarse los comandos
+	git add .
+	git commit -m "texto commit"
+	 
+
+	--> $ git commit -am "Git commit agregado"

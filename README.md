@@ -11,3 +11,4 @@
 9. git checkout main
 10. git branch -d rama-heroes
 11. git push
+12. git commit -am "Texto commit"
