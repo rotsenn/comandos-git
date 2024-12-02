@@ -1,0 +1,52 @@
+12 comandos de Git que debes de saber
+
+0. Confirmar version de git o saber si esta instalado
+	$ git --version
+
+1. $ git init
+	Este comando va inicializar mi repositorio 
+
+2. $ git add .
+	Toma todos los archivos y los prepara para un
+	commit (es decir como si tomara una fotografia)
+
+3. $ git reset .
+	Revierte todo lo que hace el git add(por si 
+	queremos tomar un archivo en el $git add .)
+
+4. $ git commit -m "Primer commit"
+	Tomo la fotografia lo que me permite regresar 
+	en el tiempo (ya tengo el codigo salvado)
+
+5. $ git checkout -- .
+	Me permite regresar al primer commit realizado
+	o al commit anterior o eso incluye si yo borro
+	el archivo
+
+6. $ git log
+	Me permite ver el listado de todos los commits
+
+7. $ git commit --amend
+	- Arreglar mensaje del ultimo commit
+
+	* aparecera otra ventana para cambiar el 		mensaje del comit, para insertar nuevos texto 		presiono la tecla i, para salirme presiono
+	las teclas --> Esc, luego :(dos puntos), w, q, 	!
+
+	--> Esc, :, w, q, !
+
+8. $ git checkout -b rama-heroes
+	Crear una nueva rama y cambiarme a esa rama
+	Queremos trabajar en ramas
+
+9. $ git branch 
+	para saber en que rama estoy
+
+10. $ git checkout main
+	para cambiarme de rama
+
+// ahora ya estoy en la rama main
+
+11. $ git merge rama--heroes
+	fusionar cambios de la rama heroes con la rama
+	main
+	
